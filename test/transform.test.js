@@ -1,4 +1,4 @@
-const transform = require(`../src`);
+const transform = require(`..`);
 
 test(`encode version to integer correclty`, () => {
   expect(transform.versionStringToInteger(`0.0.0`)).toEqual(1);

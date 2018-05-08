@@ -1,13 +1,13 @@
 {
-  "name": "semver-transform",
+  "name": "@alwin_wint3r/version-transform",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/transform.js",
+  "description": "Transform version string to integer back and forth",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest --notify"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["version", "versioning", "semver"],
+  "author": "Alwin Arrasyid <alwin.ridd@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.4.3"
