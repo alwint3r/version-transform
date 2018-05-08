@@ -1,0 +1,15 @@
+{
+  "name": "semver-transform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/transform.js",
+  "scripts": {
+    "test": "jest --notify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
