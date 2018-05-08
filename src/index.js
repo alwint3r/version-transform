@@ -11,7 +11,7 @@ function versionToInteger(major, minor, patch) {
 function versionStringToInteger(version) {
   const [major, minor, patch] = version.split(`.`);
 
-  return semverToInteger()
+  return versionToInteger(major, minor, patch);
 }
 
 function getPrimeFactors(number) {
@@ -19,16 +19,12 @@ function getPrimeFactors(number) {
   let num = number;
   let div = 2;
 
-  while (num !== 0) {
+  while (num > 1) {
     if (num % div !== 0) {
       div += 1;
     } else {
       num /= div;
       result.push(div);
-
-      if (num === 1) {
-        break;
-      }
     }
   }
 
