@@ -10,7 +10,7 @@ Tested on:
 * Transform version to integer
 
 ```js
-const transform = require(`@alwin_wint3r/version-transform`);
+const transform = require(`version-transform`);
 
 transform.versionStringToInteger(`1.1.0`);
 
@@ -21,7 +21,7 @@ transform.versionStringToInteger(`1.1.0`);
 * Transform version to integer (alternative)
 
 ```js
-const transform = require(`@alwin_wint3r/version-transform`);
+const transform = require(`version-transform`);
 
 transform.versionToInteger(1, 1, 0);
 
@@ -32,7 +32,7 @@ transform.versionToInteger(1, 1, 0);
 * Transform integer to version string
 
 ```js
-const transform = require(`@alwin_wint3r/version-transform`);
+const transform = require(`version-transform`);
 
 transform.integerToVersionString(6);
 // Output:

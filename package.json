@@ -1,6 +1,6 @@
 {
-  "name": "@alwin_wint3r/version-transform",
-  "version": "1.0.0",
+  "name": "version-transform",
+  "version": "1.0.1",
   "description": "Transform version string to integer back and forth",
   "main": "src/index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alwint3r/version-transform"
   }
 }
